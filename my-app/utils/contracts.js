@@ -36,6 +36,13 @@ export function getContractInfo(chain) {
     };
   }
 
+  if (chain === 314) {
+    return {
+      addressFactory: "0x16418e8673DF8AAd2581625393C42E2616C066D7",
+      abiFactory: UniswapV2Factory.abi,
+    };
+  }
+
   return {
     addressFactory: "0xb4BbeC5107FfFafc947912E7a05e871A312798bf",
     abiFactory: UniswapV2Factory.abi,

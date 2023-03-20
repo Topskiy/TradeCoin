@@ -45,7 +45,7 @@ module.exports = {
       chainId: 250,
     },
     filecoin: {
-      url: "https://rpc.ankr.com/filecoin=",
+      url: "https://rpc.ankr.com/filecoin",
       accounts: [process.env.PRIVATE_KEY],
       chainId: 314,
     },
